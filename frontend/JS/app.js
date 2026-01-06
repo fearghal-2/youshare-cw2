@@ -39,10 +39,6 @@ let ALL_VIDEOS_CACHE = [];
 let IS_LOADED_ONCE = false;  
 
 
-$(document).ready(function () {
-  $("#subNewForm").click(uploadVideo);   
-  $("#retImages").click(getAllVideos);   
-});
 
 
 
